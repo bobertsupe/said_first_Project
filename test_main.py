@@ -8,4 +8,5 @@ def test_add():
     assert add(2.5, 2.5) == 5.0 
     assert add(-2, -3) == -5 
     assert add(1000, 2000) == 3000
-
+    assert add(-1.5, 1.5) == 0.0
+    
